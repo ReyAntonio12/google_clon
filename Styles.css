@@ -127,32 +127,50 @@ input{
 
 /*Footer*/
 
-footer{
-    position: relative;
-    background-color: #171717;
-    font-family: Arial, sans-serif;
-    color: #bdc1c6;
-}
-
-.footer__container{
-    background-color: #171717;
+footer {
+    background-color: #171717;;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+    color: #9aa0a6;
     position: absolute;
-    top: 175px;
-    color: #bdc1c6;
-    padding-top:30px;
-    padding-bottom: 15px;
-    padding-right: 993px;
+    overflow: hidden;
+    font-size: 12px;
 }
 
-.footer__top{
+.footer__contenidoUno{
+    color: #9aa0a6;
+    position: absolute;
+    padding: 10px 0 15px 19px;
     border-bottom: 1px solid #3c4043;
-    color: #9aa0a6;
-    font-size: 14px;
-    padding-bottom: 10px;
+    width: 100%;
 }
 
-.footer__bottom{
-    color: #9aa0a6;
-    font-size: 14px;
-    padding-bottom: 10px;
+.footer__menu{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.footer__menuIzquierda{
+    padding-left: 25px;
+    float: left;
+    height: 50px;
+    width: 50%;
+    padding-top: 18px;
+}
+
+p{
+    margin-right: 10px;
+    display: inline-block;
+}
+.footer__menuDerecha{
+    padding-right: 10px;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 50px;
+    text-align: right;
+    padding-top: 18px;
 }
